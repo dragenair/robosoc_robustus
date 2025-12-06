@@ -1,16 +1,24 @@
 # robosoc_robustus
-Manchester University Robosoc Club Robustus
-Duration:  3 / 11 / 2025 --> # / ## / 2026
------------------------------------------------------
+Manchester University Robosoc Club ***Robustus***
 
-We are a group of students working on a robotic spyder called Robustus
-If you have any query, please contact Dinakar ( 2025 robosoc spyder team leader )
+**Duration:  3 / 11 / 2025 --> # / ## / 2026**  
 
-############## SUMMARY  ##############
-Week 1-7:-
+---
 
-- Created CAD in solid works and fusion.
-- tested motor driver and servo motor using arduino code
+We are a group of students working on a robotic spyder called **Robustus**
+If you have any query, please contact <mark>Dinakar</mark>( 2025 robosoc spyder team leader )
+
+SUMMARY
+---
+>Week 1-7:-
+>
+>- Created CAD in solid works and fusion.
+>- tested motor driver and servo motor using arduino code
+
+>Week 2-#:-
+>
+>- [ ] print parts
+>- [ ] write code for 1 arm
 
 
 
