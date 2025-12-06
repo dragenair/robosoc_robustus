@@ -5,7 +5,7 @@ Manchester University Robosoc Club ***Robustus***
 
 ---
 
-We are a group of students working on a robotic spyder called **Robustus**.
+We are a group of students working on a robotic spyder called **Robustus**.  
 If you have any query, please contact <mark>Dinakar</mark>( 2025 robosoc spyder team leader ).
 
 SUMMARY
