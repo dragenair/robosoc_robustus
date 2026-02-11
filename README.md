@@ -20,5 +20,10 @@ SUMMARY
 >- [ ] print parts.
 >- [ ] write code for 1 arm.
 
+>Sem 2-#:-
+>
+>- [ ] update cad design
+>- [ ] print all 6 legs
+
 
 
