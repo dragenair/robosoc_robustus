@@ -24,6 +24,7 @@ SUMMARY
 >
 >- [x] update cad design
 >- [ ] print all 6 legs
+>- [ ] assemble the parts
 
 
 
