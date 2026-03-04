@@ -15,6 +15,13 @@ If you have any query, please contact <mark>***Dinakar***</mark>( 2025 robosoc s
 * [SG90 Servo Motor Datasheet][3]
 ---
 
+---
+### programming References
+* [YT:Robot Inverse Kinematics With A Hexapod Leg][4]
+* [YT:fusion tutorial playlist][5]
+
+---
+
 SUMMARY
 ---
 >Week 1-7:-
@@ -37,5 +44,7 @@ SUMMARY
 [1]: https://mischianti.org/doit-esp32-dev-kit-v1-high-resolution-pinout-and-specs/
 [2]: https://cdn-learn.adafruit.com/downloads/pdf/16-channel-pwm-servo-driver.pdf
 [3]: http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf
+[4]: https://www.youtube.com/watch?v=HjmIOKSp7v4
+[5]: https://www.youtube.com/watch?v=WEIpQHWqPVw&list=PLLm7Yjr9z_z07ohtjFGkA5w-j_NMj8B3J
 
 
