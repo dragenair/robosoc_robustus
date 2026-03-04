@@ -9,9 +9,10 @@ We are a group of students working on a robotic spyder called **Robustus**.
 If you have any query, please contact <mark>***Dinakar***</mark>( 2025 robosoc spyder team leader ).
 
 ---
-ESP32 pin layout - https://mischianti.org/doit-esp32-dev-kit-v1-high-resolution-pinout-and-specs/  
-Adafruit PCA9685 16-Channel Servo driver - https://cdn-learn.adafruit.com/downloads/pdf/16-channel-pwm-servo-driver.pdf  
-SERVO MOTOR SG90 sheet - http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf
+### Hardware References
+* [ESP32 Pin Layout][1]
+* [Adafruit PCA9685 16-Channel Servo Driver][2]
+* [SG90 Servo Motor Datasheet][3]
 ---
 
 SUMMARY
@@ -32,5 +33,9 @@ SUMMARY
 >- [ ] print all 6 legs
 >- [ ] assemble the parts
 
+
+[1]: https://mischianti.org/doit-esp32-dev-kit-v1-high-resolution-pinout-and-specs/
+[2]: https://cdn-learn.adafruit.com/downloads/pdf/16-channel-pwm-servo-driver.pdf
+[3]: http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf
 
 
