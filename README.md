@@ -19,6 +19,7 @@ If you have any query, please contact <mark>***Dinakar***</mark>( 2025 robosoc s
 ### programming References
 * [YT:Robot Inverse Kinematics With A Hexapod Leg][4]
 * [YT:fusion tutorial playlist][5]
+* [adafruit library functions explanations][6]
 
 ---
 
@@ -46,5 +47,6 @@ SUMMARY
 [3]: http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf
 [4]: https://www.youtube.com/watch?v=HjmIOKSp7v4
 [5]: https://www.youtube.com/watch?v=WEIpQHWqPVw&list=PLLm7Yjr9z_z07ohtjFGkA5w-j_NMj8B3J
+[6]: https://adafruit.github.io/Adafruit-PWM-Servo-Driver-Library/html/class_adafruit___p_w_m_servo_driver.html
 
 
