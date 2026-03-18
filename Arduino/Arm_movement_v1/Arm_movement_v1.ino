@@ -1,6 +1,11 @@
 #include <Wire.h>
 #include <Adafruit_PWMServoDriver.h>
 
+'''
+Trying to move the servo from 0 degree to 90 degree using the adafruit controller
+but it only does pwm
+'''
+
 // define the structure i.e.the dictionary / template.
 struct ServoConfig {
   const char* name; // The "Key" (e.g., "base", "claw")
@@ -34,24 +39,30 @@ void printServoDictionary() {
   Serial.println("---------------------------");
 }
 
-void moveServo(ServoConfig myServos, int angle) {
-  // 1. Get the min and max pulses from your dictionary
+void moveServo(ServoConfig myServos, int startAngle, int stopAngle) {
   int minP = myServos.minPW;
   int maxP = myServos.maxPW;
 
-  // 2. Map the angle (0-180) to the pulse range (min-max)
+  // Map the angle (0-180) to the pulse range (min-max)
   // map(value, fromLow, fromHigh, toLow, toHigh)
-  int pulse = map(angle, 0, 180, minP, maxP);
+  int startPulse = map(startAngle, 0, 180, minP, maxP);
+  int stopPulse = map(stopAngle, 0, 180, minP, maxP);
 
-  // 3. Send the command to the board
+// Function to move a servo slowly to a specific angle (0-180)
+  if (startPulse < endPulse) {
+    for (int pulse = startPulse; pulse <= endPulse; pulse++) {
+      pwm.setPWM(myServos.pin, 0, pulse);
+      delay(1000); // Lower speedDelay = faster movement
+    }
+  } else {
+    for (int pulse = startPulse; pulse >= endPulse; pulse--) {
+      pwm.setPWM(myServos.pin, 0, pulse);
+      delay(1000);
+    }
+  }
+
   //board1.setPWM(myServos.pin, 0, pulse);
-  board1.writeMicroseconds(myServos.pin ,pulse);
-
-  Serial.print("Moving ");
-  Serial.print(myServos.name);
-  Serial.print(" to ");
-  Serial.print(angle);
-  Serial.println(" degrees.");
+  //board1.writeMicroseconds(myServos.pin ,pulse);
 }
 
 void setup() {
@@ -65,11 +76,12 @@ void setup() {
 }
 
 void loop() {
-
   printServoDictionary();
+
   moveServo(myServos[0], 90);
   delay(1000);
   Serial.println(board1.getPWM(myServos[0].pin));
+
   moveServo(myServos[0], 0);
   delay(1000);
   Serial.println(board1.getPWM(myServos[0].pin));
